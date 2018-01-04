@@ -12,12 +12,15 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   constructor() { }
 
+  downloadCV() {
+    console.log('CV downloaded');
+  }
+
   ngOnInit() {
 
   }
 
   ngAfterViewInit() {
-    console.log(this.cv.exps.length);
   }
 
 }

@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'SuperWebcomicBros';
+  src: url('./assets/Super Webcomic Bros..ttf')  format('truetype');
+  font-weight: normal;
+  }
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('./assets/PlayfairDisplay-Regular.ttf')  format('truetype');
+  font-weight: normal;
+  }
