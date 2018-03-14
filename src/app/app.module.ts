@@ -9,6 +9,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { CvService } from './services/cv.service';
 import { CvComponent } from './cv/cv.component';
+import { PresentationComponent } from './presentation/presentation.component';
+import { NetworksComponent } from './networks/networks.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { CvComponent } from './cv/cv.component';
     MenuComponent,
     HomeComponent,
     ProjectsComponent,
-    CvComponent
+    CvComponent,
+    PresentationComponent,
+    NetworksComponent
   ],
   imports: [
     BrowserModule,
