@@ -11,6 +11,9 @@ import { CvService } from './services/cv.service';
 import { CvComponent } from './cv/cv.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { NetworksComponent } from './networks/networks.component';
+import { ClipboardModule } from 'ngx-clipboard';
+import { ToasterModule } from 'ngx-toaster/src/lib';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { NetworksComponent } from './networks/networks.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ClipboardModule,
+    ToasterModule,
+    BrowserAnimationsModule
   ],
   providers: [ CvService ],
   bootstrap: [AppComponent]
